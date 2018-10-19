@@ -1,10 +1,7 @@
-#root {
-  height: inherit;
-}
-
 .app {
-  height: inherit;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #arabic {
@@ -14,21 +11,25 @@
 }
 
 .image {
-  min-height: 80vh;
-  min-width: 50vw;
+  padding: 30vmin 2rem;
   background-image: url("https://s3.amazonaws.com/rl-landing-page/landing-page.gif");
   background-size: cover;
-  font-weight: 500;
-  font-size: 2rem;
-  margin: 1.5rem;
-  flex-grow: 1;
+  background-position-y: -140px;
+  background-repeat: no-repeat;
+  margin: 0.75rem;
 }
 
-.title {
-  flex-basis: 300px;
-  padding: 1.5rem;
-  text-align: right;
+.header {
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
   font-weight: 700;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
 }
