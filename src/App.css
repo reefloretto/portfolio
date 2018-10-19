@@ -1,32 +1,34 @@
-.App {
-  text-align: center;
+#root {
+  height: inherit;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
+  height: inherit;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#arabic {
+  font-family: myriad-arabic, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image {
+  min-height: 80vh;
+  min-width: 50vw;
+  background-image: url("https://s3.amazonaws.com/rl-landing-page/landing-page.gif");
+  background-size: cover;
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 1.5rem;
+  flex-grow: 1;
+}
+
+.title {
+  flex-basis: 300px;
+  padding: 1.5rem;
+  text-align: right;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
 }
