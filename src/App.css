@@ -4,32 +4,73 @@
   justify-content: center;
 }
 
-#arabic {
-  font-family: myriad-arabic, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.image {
-  padding: 30vmin 2rem;
-  background-image: url("https://s3.amazonaws.com/rl-landing-page/landing-page.gif");
-  background-size: cover;
-  background-position-y: -140px;
-  background-repeat: no-repeat;
-  margin: 0.75rem;
-}
-
 .header {
-  padding-top: 0.5rem;
-  display: flex;
-  justify-content: flex-end;
+  padding: 10vmin 2rem;
+  background-image: url("https://s3.amazonaws.com/rl-landing-page/pattern.gif");
+  background-size: cover;
+  background-position-y: 1000px;
+}
+
+.header .content {
   font-weight: 700;
   font-style: normal;
   font-size: 1.75rem;
-  color: white;
-}
-
-.content {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+}
+
+.content .item {
+  padding: 0.25rem;
+  align-self: flex-end;
+  background-color: white;
+}
+
+.body {
+  padding: 1.75rem;
+  max-width: 400px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row .group-title {
+  font-style: normal;
+  font-weight: 700;
+  padding: 0.25rem;
+  background-color: white;
+  margin: 0.5rem 0 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.project-title {
+  margin: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.body a {
+  font-family: titling-gothic-fb-narrow, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: white;
+  font-size: 1.1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.year {
+  font-family: titling-gothic-fb-narrow, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.body a:hover {
+  background-color: #d6d6d8;
+}
+
+#arabic {
+  font-family: athelas-arabic,serif;
+  font-weight: 700;
+  font-style: normal;
 }
