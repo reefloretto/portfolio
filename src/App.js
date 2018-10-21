@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <div className="header image">
+        <div className="header">
           <div className="content">
             <div className="item">REEF LORETTO</div>
             <div id="arabic" className="item">
@@ -19,7 +19,7 @@ class App extends Component {
           </div>
           <div className="row project-title">
             <a>blackbox</a>
-            <div className="year">2018</div>
+            <div className="year">2017</div>
           </div>
           <div className="row project-title">
             <a>voices of boston</a>
