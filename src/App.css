@@ -6,6 +6,7 @@
   background-image: url("https://s3.amazonaws.com/rl-landing-page/pattern.gif");
   background-size: cover;
   background-position-y: 1000px;
+  border-bottom: 10px solid white;
 }
 
 .header .content {

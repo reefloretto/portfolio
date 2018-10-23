@@ -18,7 +18,13 @@ class App extends Component {
             <div className="group-title">PROJECTS</div>
           </div>
           <div className="row project-title">
-            <a>blackbox</a>
+            <a
+              href="http://blackbox.reefloretto.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              blackbox
+            </a>
             <div className="year">2017</div>
           </div>
           <div className="row project-title">
@@ -26,11 +32,23 @@ class App extends Component {
             <div className="year">2018</div>
           </div>
           <div className="row project-title">
-            <a>voices of aida</a>
+            <a
+              href="http://aida.reefloretto.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              voices of aida
+            </a>
             <div className="year">2018</div>
           </div>
           <div className="row project-title">
-            <a>dmoz</a>
+            <a
+              href="http://dmoz.reefloretto.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              dmoz
+            </a>
             <div className="year">2018</div>
           </div>
         </div>
