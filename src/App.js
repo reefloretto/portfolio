@@ -19,25 +19,21 @@ class App extends Component {
           </div>
           <div className="row project-title">
             <a
-              href="http://blackbox.reefloretto.com"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              blackbox
-            </a>
-            <div className="year">2017</div>
-          </div>
-          <div className="row project-title">
-            <a>voices of boston</a>
-            <div className="year">2018</div>
-          </div>
-          <div className="row project-title">
-            <a
               href="http://aida.reefloretto.com"
               rel="noopener noreferrer"
               target="_blank"
             >
               voices of aida
+            </a>
+            <div className="year">2018</div>
+          </div>
+          <div className="row project-title">
+            <a
+              href="http://boston.reefloretto.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              voices of boston
             </a>
             <div className="year">2018</div>
           </div>
@@ -50,6 +46,16 @@ class App extends Component {
               dmoz
             </a>
             <div className="year">2018</div>
+          </div>
+          <div className="row project-title">
+            <a
+              href="http://blackbox.reefloretto.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              blackbox
+            </a>
+            <div className="year">2017</div>
           </div>
         </div>
       </div>
